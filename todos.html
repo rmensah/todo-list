@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> To Dos </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="todos.css">
+</head>
+<body>
+ <nav class="navbar navbar-inverse">
+  <h2> To Do </h2>
+ </nav>
+
+<div class="input">
+<h3>Enter Item:</h3>
+<input type="text" id="addtodo" placeholder="Enter To Do item..." autofocus>
+<button id="add" class="btn">Add To List</button>
+</div>
+
+<div class="row-fluid">
+    <div class="col-md-6">
+      <div class="table">
+        <table class="table">
+          <tr>
+            <td> 
+              <ul>
+                <li input type="text" id="todolist" class="listItem"></li>
+              </ul>
+            </td>
+            <div class="checkbox"> </div>
+             <label>
+              <input type="checkbox"> 
+             </label>
+          </tr> <!-- end row -->
+        </table>
+      </div> <!-- end table-responsive -->
+    </div> <!-- end col-md-12 -->
+</div> <!-- end row-fluid -->
+
+<div class="row-fluid">
+    <div class="col-md-6">
+      <div class="table">
+        <table class="table table-bordered">
+          <tr>
+            <td> 
+              <ul input type="text" id="todolist"></ul>
+            </td>
+            <div class="checkbox"> </div>
+              <label>
+                <input type="checkbox"> 
+              </label>
+          </tr> <!-- end row -->
+        </table>
+      </div> <!-- end table-responsive -->
+    </div> <!-- end col-md-12 -->
+  </div> <!-- end row-fluid -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="todos.js"></script>
+</body>
+</html>
